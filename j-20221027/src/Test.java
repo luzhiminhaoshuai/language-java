@@ -89,7 +89,7 @@ public class Test {
         System.out.println(ret+1);
         String str2 = "1.25";
         double d = Double.valueOf(str2);
-        System.out.println(d);*/
+        System.out.println(d); */
     }
     public static void main3(String[] args) {
         int a = 12345;
