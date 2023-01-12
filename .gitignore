@@ -6,7 +6,6 @@
 *.iml
 *.mdb
 *.sln
-*.class
 *.dll
 *.exe
 *.o
