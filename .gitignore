@@ -12,6 +12,7 @@
 *.o
 *.so
 *.jar
+*.png
 out
 gen
 ### Example user template template
