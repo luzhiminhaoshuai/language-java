@@ -8,6 +8,14 @@ import java.util.Scanner;
  * Time:21:30
  */
 public class Test {
+
+    public static void main(String[] args) {
+        String aa="1234";
+        int bb=Integer.valueOf(aa);
+        bb=bb+1;
+        System.out.println(bb);
+    }
+
     //方法的重载
     //在同一个类中定义多个方法：要求不仅可以求2个整数的最大值，还可以求3个小数的最大值？
     public static int max(int a,int b){
@@ -33,7 +41,7 @@ public class Test {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main9(String[] args) {
         int i=max(5,9);
         double j=max(6.3,6.9,7.9);
         System.out.println(i+"  "+j);
