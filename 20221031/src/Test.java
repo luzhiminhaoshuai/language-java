@@ -10,6 +10,10 @@ import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        int n=scanner.nextInt();
+    }
+    public static void main10(String[] args) {
         String aa="1234";
         int bb=Integer.valueOf(aa);
         bb=bb+1;
